@@ -1,0 +1,71 @@
+.container{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  color: var(--gray-100);
+  padding: 1rem;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.container input[type='checkbox'] {
+  display: none;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  gap: 0.75rem
+}
+
+.checked{
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+.checkbox {
+  border-radius: 100%;
+  height: 1.125rem;
+  width: 1.125rem;
+
+  transition: 0.2s all;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox-unchecked {
+  border: 2px solid var(--purple-light);
+}
+
+.checkbox-unchecked:hover {
+  background-color: var(--purple-higlight);
+}
+
+.checkbox-checked {
+  border: 2px solid var(--purple);
+  background-color: var(--purple);
+}
+
+.checkbox-checked:hover {
+  border: 2px solid var(--purple-dark);
+  background-color: var(--purple-dark);
+}
+.buttonRemove {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.buttonRemove img {
+  filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.buttonRemove:hover img {
+  filter: invert(20%) sepia(100%) saturate(6000%) hue-rotate(360deg) brightness(100%) contrast(100%);
+}

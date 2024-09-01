@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&wght@700&display=swap');
+
+:root {
+  --gray-100: #f2f2f2;
+  --gray-200: #d9d9d9;
+  --gray-300: #4d4d4d;
+  --gray-400: #333333;
+  --gray-500: #171717;
+  --gray-600: #0a0a0a;
+  --gray-700: #030303;
+
+  --red-light: #E13C3C;
+  --red: #D90B0B;
+  --red-dark: #990000;
+
+  --purple-higlight: #CD6FFF;
+  --purple-light: #994D9F;
+  --purple: #7F2187;
+  --purple-dark: #410047;
+}
+
+:focus {
+  outline: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--gray-600);
+  color: var(--gray-100);
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
